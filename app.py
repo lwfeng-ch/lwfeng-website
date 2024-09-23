@@ -30,7 +30,7 @@ JOBS = [
 ]
 
 @app.route("/")
-def hello_Jovain():
+def hello_lwfeng():
     return render_template('home2.html',
                            jobs=JOBS,
                            company_name='lwfeng')
