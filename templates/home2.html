@@ -22,8 +22,10 @@
         <h1 class="text-center mt-2 mb-4">
             {{company_name}} Careers
         </h1>
-        <img class="img-fluid" id='p1' src="http://127.0.0.1:5000/static/p2.jpeg">
+        <img class="img-fluid" id='p1' src="http://127.0.0.1:5000/static/page1.jpeg">
         <h2 class="text-center">About {{company_name}}</h2>
+        <div class="row">
+            <div class="col-6">
         <p class="lead">
           Our platform offers more than just job listings.
           We provide a comprehensive suite of tools and
@@ -32,7 +34,11 @@
           planning advice to our thriving community of
           job seekers, we're here to support you every step of the way.
         </p>
-
+            </div>
+            <div class='col-6'>
+            <img src="/static/people.jpeg" style="height:320px;">
+            </div>
+        </div>
         <h2 class="text-center mt-2 mb-4">job openimgs </h2>
         <div>
             {% for job in jobs %}
